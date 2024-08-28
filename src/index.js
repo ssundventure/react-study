@@ -11,6 +11,7 @@ import Accommodate from './chapter_07/Accommodate';
 import ConfirmButton from './chapter_08/ConfirmButton';
 import LandingPage from './chapter_09/LandingPage';
 import AttendanceBook from './chapter_10/AttendanceBook';
+import SignUp from './chapter_11/SignUp';
 
 //React applicaition이 렌더링될 위치를 정한다.
 const root = ReactDOM.createRoot(document.getElementById('root'));
@@ -18,7 +19,7 @@ const root = ReactDOM.createRoot(document.getElementById('root'));
 //이 렌더링하는 컴포넌트가 애플리케이션의 시작점이된다.
 root.render(
   <React.StrictMode>
-    <AttendanceBook />
+    <SignUp />
   </React.StrictMode>
 );
 
