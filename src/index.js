@@ -15,6 +15,7 @@ import SignUp from './chapter_11/SignUp';
 import Calculator from './chapter_12/Calculator';
 import ProfileCard from './chapter_13/ProfileCard';
 import DarkOrLight from './chapter_14/DarkOrLight';
+import Blocks from './chapter_15/Blocks';
 
 //React applicaition이 렌더링될 위치를 정한다.
 const root = ReactDOM.createRoot(document.getElementById('root'));
@@ -22,7 +23,7 @@ const root = ReactDOM.createRoot(document.getElementById('root'));
 //이 렌더링하는 컴포넌트가 애플리케이션의 시작점이된다.
 root.render(
   <React.StrictMode>
-    <DarkOrLight />
+    <Blocks />
   </React.StrictMode>
 );
 
